@@ -1,21 +1,16 @@
-#include <stdio.h>
+#include<iostream>
 
-long int nextPrime(long int current);
-int isPrime(long int num);
+int main()
+{
+	int num, factor = 2;
+	std::cout << "Enter a number: ";
+	std::cin >> num;
 
-int main() {
-    long int N, prime, largest;
-
-    printf("Enter N: ");
-    scanf("%ld", &N);
-
-    for(prime = 2; prime <= N/2; prime = nextPrime(prime)) {
-        if(N % prime == 0)
-            largest = prime;
-    }
-}
-
-long int nextPrime(long int current) {
-    while(1)
-        
+	for (int temp = num; factor <= num / 2 && factor != temp; factor++)
+	{
+		while (temp % factor == 0 && factor != temp)
+			temp /= factor;
+	}
+ 
+	std::cout << "Largest prime factor of " << num << " is " << factor;
 }
