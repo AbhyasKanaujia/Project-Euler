@@ -21,3 +21,6 @@ printf("long int ranges from %.0f to %.0f\n",
 [Link to full program](../My%20Tools/Range%20of%20datatype/README.md)
 
 Let's get to the problem.
+
+### Java 
+Java required long datatype to fit the input.
