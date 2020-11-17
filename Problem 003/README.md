@@ -13,14 +13,15 @@ That number that I need to work on seems to be too big. I don't know if my `int`
 I found a solution for range of variable.
 
 ```cpp
-printf("long int ranges from %.0f to %.0f\n", 
+printf("long int ranges from %.0f to %.0f\n",
         -1 * pow(2, sizeof(long int) * 8 - 1), pow(2, sizeof(long int) * 8 - 1) - 1);
         // long int ranges from -9223372036854775808 to 9223372036854775808
 ```
 
-[Link to full program](../My%20Tools/Range%20of%20datatype/README.md)
+[Link to full program](../My%20Tools/Range%20of%20datatype/)
 
 Let's get to the problem.
 
-### Java 
+### Java
+
 Java required long datatype to fit the input.

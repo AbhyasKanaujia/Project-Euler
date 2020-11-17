@@ -20,7 +20,7 @@ So instead of having to multiply <img src="https://render.githubusercontent.com/
 
 To do this I made the inner loop not use all the number less than what the outer loop was currently handling.
 
-## After reading solution
+## After reading problem overview
 
 After reading the solution at project euler I found that I had made a mistake. My program took 111 as the smallest 3 digit numer while 100 should have been. 
 
