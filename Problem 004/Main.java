@@ -2,8 +2,8 @@ class Main {
     public static void main(String[] args) {
         int firstNumber, secondNumber, largest = 0;
         
-        for(firstNumber = 999; firstNumber >= 111; firstNumber--)
-            for(secondNumber = firstNumber; secondNumber >= 111; secondNumber--) {
+        for(firstNumber = 999; firstNumber >= 100; firstNumber--)
+            for(secondNumber = firstNumber; secondNumber >= 100; secondNumber--) {
                 int product = firstNumber * secondNumber;
                 if(isPalindrome(product))
                     if(product > largest) { largest = product; }                    

@@ -10,8 +10,8 @@ def isPalindrome(num):
         return True
     return False
 
-for firstNumber in range(999, 111, -1):
-    for secondNumber in range(firstNumber, 111, -1):
+for firstNumber in range(999, 100, -1):
+    for secondNumber in range(firstNumber, 100, -1):
         product = firstNumber * secondNumber
         if(isPalindrome(product)):
             if(product > largest):

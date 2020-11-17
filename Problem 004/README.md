@@ -20,3 +20,17 @@ So instead of having to multiply <img src="https://render.githubusercontent.com/
 
 To do this I made the inner loop not use all the number less than what the outer loop was currently handling.
 
+## After reading solution
+
+After reading the solution at project euler I found that I had made a mistake. My program took 111 as the smallest 3 digit numer while 100 should have been. 
+
+It also talked about the representation of palindrome number and how it was a multiple of 11: 
+<!-- $100000x+10000y+1000z+100z+10y+x$ --> <img src="https://render.githubusercontent.com/render/math?math=100000x%2B10000y%2B1000z%2B100z%2B10y%2Bx">
+<br>
+<!-- $=100001x+10010y+1100z$ --> <img src="https://render.githubusercontent.com/render/math?math=%3D100001x%2B10010y%2B1100z">
+<br>
+<!-- $=11(9091x+910y+100z)$ --> <img src="https://render.githubusercontent.com/render/math?math=%3D11(9091x%2B910y%2B100z)">
+
+The problem overview goes into more details about it. You sould not stop at this point since I have skipped many detailes about this being a multiple of 11.
+
+I've correct my samallest 3 digit number problem and now I'm going to commit these changes.
